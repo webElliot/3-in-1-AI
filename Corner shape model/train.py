@@ -23,7 +23,7 @@ def printNext(text):
 
 model_data = len(os.listdir("data/train"))
 print(f"Found {model_data} model choices.")
-epochSelected = 25
+epochSelected = 10
 learning_rate = 0.025
 
 
@@ -133,7 +133,7 @@ out = torchvision.utils.make_grid(inputs)
 
 #imshow(out, title=[class_names[x] for x in classes])
 
-def train_model(model, criterion, optimizer, scheduler, num_epochs=25):
+def train_model(model, criterion, optimizer, scheduler, num_epochs=10):
     since = time.time()
 
     best_model_wts = copy.deepcopy(model.state_dict())
