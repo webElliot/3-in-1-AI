@@ -20,7 +20,7 @@ This Image detection task required to be broken down in to a few different steps
 - This is why it is vital to achieve 99-99.9% Accuacy per task
 
 ### Shape sat on
-[Shape sat Model]("https://github.com/webElliot/3-in-1-AI/tree/main/Shape%20sat%20Model")
+[Shape sat Model](https://github.com/webElliot/3-in-1-AI/tree/main/Shape%20sat%20Model)
 1) First, I downloaded the data for the challenges
 2) I wrote a script **cutter.py** to split the image into 6.
 
@@ -36,7 +36,7 @@ This Image detection task required to be broken down in to a few different steps
     <img src="https://i.imgur.com/KwTwxCt.png">
 </p>
 
-3) I then imported lots of these images into my [Label Webserver]("https://github.com/webElliot/LabelWS")
+3) I then imported lots of these images into my [Label Webserver](https://github.com/webElliot/LabelWS)
 4) I Created the Labels: Circle, Square and clicked around 100 images.
 5) I then started Training my Circle/Square model
 6) After training I would get ~60-75% accuracy, since this is better than guessing I then input my minority class AI Predicted image labels into the webserver & Repeated the labelling process
@@ -45,7 +45,7 @@ This Image detection task required to be broken down in to a few different steps
 
 
 ### Eye direction 
-[Eye direction Model]("https://github.com/webElliot/3-in-1-AI/tree/main/Eye%20direction%20model")
+[Eye direction Model](https://github.com/webElliot/3-in-1-AI/tree/main/Eye%20direction%20model)
 1) The next step was creating Labels for each corner; Top Left, Top Right, Bottom Left, Bottom Right : Labelled as; 1,2,3,4 respectively.
 2) Then I began labelling.
 3) Training the Eye direction model.
@@ -54,7 +54,7 @@ This Image detection task required to be broken down in to a few different steps
 6) After labelling 500 of each Label, I stopped labelling & training because accuracy reached 99%.
 
 ### Corner Shape Labelling
-[Corner shape Model]("https://github.com/webElliot/3-in-1-AI/tree/main/Corner%20shape%20model"")
+[Corner shape Model](https://github.com/webElliot/3-in-1-AI/tree/main/Corner%20shape%20model)
 1) Firstly I used PIL in Python to crop the images just so I had the corners of the images since the main focus was on the green shape.
 
 **corner.py** is the script I wrote to grab the corners of the images.
