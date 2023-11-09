@@ -16,12 +16,16 @@ This Image detection task required to be broken down in to a few different steps
 2) I wrote a script **cutter.py** to split the image into 6.
 
 
-<img src="https://i.imgur.com/89dva6u.png">
-<img src="https://i.imgur.com/iGWeJyo.png">
-<img src="https://i.imgur.com/iYySnVz.png">
-<img src="https://i.imgur.com/cYs2Bfk.png">
-<img src="https://i.imgur.com/OGgZzLV.png">
-<img src="https://i.imgur.com/KwTwxCt.png">
+<p>
+    <img src="https://i.imgur.com/89dva6u.png">
+    <img src="https://i.imgur.com/iGWeJyo.png">
+    <img src="https://i.imgur.com/iYySnVz.png">
+</p>
+<p>
+    <img src="https://i.imgur.com/cYs2Bfk.png">
+    <img src="https://i.imgur.com/OGgZzLV.png">
+    <img src="https://i.imgur.com/KwTwxCt.png">
+</p>
 
 3) I then imported lots of these images into my [Label Webserver]("https://github.com/webElliot/LabelWS")
 4) I Created the Labels: Circle, Square and clicked around 100 images.
