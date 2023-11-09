@@ -46,11 +46,14 @@ This Image detection task required to be broken down in to a few different steps
 
 **This would mean the noise in the image would be reduced since the target shape takes up the majority of the image**
 
-<img src="https://i.imgur.com/IrVH56E.png" width="=50">
-<img src="https://i.imgur.com/O3VhhJj.png" width="50">
+<p>
+    
+<img src="https://i.imgur.com/IrVH56E.png">
+<img src="https://i.imgur.com/O3VhhJj.png">
 <img src="https://i.imgur.com/OGfp03a.png">
 <img src="https://i.imgur.com/mWb7LWL.png">
 <img src="https://i.imgur.com/0qDMYqf.png">
+</p>
 
 2) Next I input these images into the Label WS, Began labelling and repeated the process of getting AI predictions and labelling those correctly.
 3) This model required a fairly small dataset to achieve 95-99% Accuracy.
