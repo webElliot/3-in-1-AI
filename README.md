@@ -15,7 +15,7 @@ This Image detection task required to be broken down in to a few different steps
 - Semi-Supervised learning (Getting the AI to predict labels for me after a small dataset had been aquired.)
 - The target Accuracy I was aiming for was 99% because Challenges would consist of 1-5 Different 3x2 Images most commonly seen at 5 Images per challenge.
 - If all three Models only had a 95% accuracy on each would result in a total accuracy of 85.74% (95/100 ^ 6) for each Challenge image out of the 6. 
-- Spread across 5 challenge images at 85.74% Accuracy on each Challenge would result in only a 37% Accuracy per Funcaptcha Task (assuming there were 5 3x2 images you needed to solve correctly)
+- Spread across 5 challenge images at 85.74% Accuracy on each Challenge would result in only a 37% (0.8574 ^ 5 = 0.37) Accuracy per Funcaptcha Task (assuming there were 5 3x2 images you needed to solve correctly)
 - Also if you fail funcaptcha Tasks your future tasks get exponentially more difficult to solve (up to 20 Challenge images if you get lots incorrect)
 - This is why it is vital to achieve 99-99.9% Accuacy per task
 
