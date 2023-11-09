@@ -20,7 +20,7 @@ This Image detection task required to be broken down in to a few different steps
 - This is why it is vital to achieve 99-99.9% Accuacy per task
 
 ### Shape sat on
-[Shape sat Model]("https://github.com/webElliot/3-in-1-AI/tree/main/Shape%20sat%20Model"")
+[Shape sat Model]("https://github.com/webElliot/3-in-1-AI/tree/main/Shape%20sat%20Model")
 1) First, I downloaded the data for the challenges
 2) I wrote a script **cutter.py** to split the image into 6.
 
